@@ -4,8 +4,30 @@
     border: border-box !important;
 }
 
-.navbar{
+.navbarr{
     height: 60px !important;
     background-color:  #0f1111;
     color: white;
+    display: flex !important;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.borderr{
+    border: 2px solid transparent;
+    border-radius: 2px;
+}
+
+.borderr:hover{
+    border: 1px solid white;
 }
